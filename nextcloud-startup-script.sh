@@ -670,9 +670,6 @@ TIPS & TRICKS:
 5. For a better experience it's a good idea to setup an email account here:
    https://yourcloud.xyz/settings/admin"
 
-# Prefer IPv6
-sed -i "s|precedence ::ffff:0:0/96  100|#precedence ::ffff:0:0/96  100|g" /etc/gai.conf
-
 # Reboot
 print_text_in_color "$IGreen" "Installation done, system will now reboot..."
 rm -f "$SCRIPTS/you-can-not-run-the-startup-script-several-times"
